@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7515.2" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RUX-fM-SgY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7512"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--食券-->
@@ -16,18 +17,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-4i-IBZ">
-                                <rect key="frame" x="16" y="72" width="382" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Price" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sjm-4i-IBZ">
+                                <rect key="frame" x="15" y="79" width="383" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="next"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sr0-9t-BIQ">
-                                <rect key="frame" x="16" y="110" width="382" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Place" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Sr0-9t-BIQ">
+                                <rect key="frame" x="15" y="124" width="383" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="send"/>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sjm-4i-IBZ" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="1du-cQ-ux1"/>
+                            <constraint firstItem="sjm-4i-IBZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="1ik-Bu-aQk"/>
+                            <constraint firstItem="sjm-4i-IBZ" firstAttribute="leading" secondItem="Sr0-9t-BIQ" secondAttribute="leading" id="3q9-qB-McM"/>
+                            <constraint firstItem="sjm-4i-IBZ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="7j4-dV-x26"/>
+                            <constraint firstItem="sjm-4i-IBZ" firstAttribute="trailing" secondItem="Sr0-9t-BIQ" secondAttribute="trailing" id="IJc-NA-8zX"/>
+                            <constraint firstItem="Sr0-9t-BIQ" firstAttribute="top" secondItem="sjm-4i-IBZ" secondAttribute="bottom" constant="15" id="KHP-IM-CQf"/>
+                            <constraint firstItem="sjm-4i-IBZ" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="15" id="iLM-T3-M4r"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="食券" id="OPV-p7-kw8">
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="clP-ER-gAA">
@@ -44,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043" y="327"/>
+            <point key="canvasLocation" x="1160" y="336"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l3h-p4-emY">
