@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var priceText: UITextField!
-    @IBOutlet weak var placeText: UITextField!
+    @IBOutlet private weak var priceText: UITextField!
+    @IBOutlet private weak var placeText: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     
     // MARK: - Action
 
-    @IBAction func send(sender: AnyObject) {
+    @IBAction private func send(sender: AnyObject) {
         self.send();
     }
 
