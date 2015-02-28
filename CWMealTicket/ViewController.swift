@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         let place :String = self.placeText.text;
         let message :String = "\(price)\n\(place)"
         
-        let httpClient = CWMHttpClient.new()
+        let httpClient = CWHttpClient.new()
         httpClient.sendMessage(message)
     }
     

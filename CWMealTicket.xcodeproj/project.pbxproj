@@ -13,7 +13,7 @@
 		6741374A1A8B5BC0009452C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674137491A8B5BC0009452C8 /* Images.xcassets */; };
 		6741374D1A8B5BC0009452C8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6741374B1A8B5BC0009452C8 /* LaunchScreen.xib */; };
 		674137591A8B5BC0009452C8 /* CWMealTicketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674137581A8B5BC0009452C8 /* CWMealTicketTests.swift */; };
-		677D4D5B1A9DCE3400F200B2 /* CWMHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D4D5A1A9DCE3400F200B2 /* CWMHttpClient.swift */; };
+		677D4D5B1A9DCE3400F200B2 /* CWHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677D4D5A1A9DCE3400F200B2 /* CWHttpClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,7 @@
 		674137521A8B5BC0009452C8 /* CWMealTicketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CWMealTicketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		674137571A8B5BC0009452C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		674137581A8B5BC0009452C8 /* CWMealTicketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CWMealTicketTests.swift; sourceTree = "<group>"; };
-		677D4D5A1A9DCE3400F200B2 /* CWMHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CWMHttpClient.swift; sourceTree = "<group>"; };
+		677D4D5A1A9DCE3400F200B2 /* CWHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CWHttpClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +81,7 @@
 			children = (
 				674137421A8B5BC0009452C8 /* AppDelegate.swift */,
 				674137441A8B5BC0009452C8 /* ViewController.swift */,
-				677D4D5A1A9DCE3400F200B2 /* CWMHttpClient.swift */,
+				677D4D5A1A9DCE3400F200B2 /* CWHttpClient.swift */,
 				674137461A8B5BC0009452C8 /* Main.storyboard */,
 				674137491A8B5BC0009452C8 /* Images.xcassets */,
 				6741374B1A8B5BC0009452C8 /* LaunchScreen.xib */,
@@ -217,7 +217,7 @@
 			files = (
 				674137451A8B5BC0009452C8 /* ViewController.swift in Sources */,
 				674137431A8B5BC0009452C8 /* AppDelegate.swift in Sources */,
-				677D4D5B1A9DCE3400F200B2 /* CWMHttpClient.swift in Sources */,
+				677D4D5B1A9DCE3400F200B2 /* CWHttpClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

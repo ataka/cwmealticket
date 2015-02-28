@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CWMHttpClient: NSObject {
+class CWHttpClient: NSObject {
     private let roomId :String = ""
     private let userToken :String = ""
     private let baseUrl :String = "https://api.chatwork.com/v1"
